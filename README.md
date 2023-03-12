@@ -1,13 +1,5 @@
 # Analyzing-Covid19
 Analyzing Covid-19 dataset, the aim was to check two hypothesis using R.
 
-HYPOTHESIS TESTING
-
-First Hypothesis: 
-The media claims that older people are more likely to die than younger people from COVID-19. Is this true?
-The data shows that those who die are older in our sample
-
-Second Hypothesis: 
-We want to see if the death rate is similar for men and women.
-We see that men in this dataset have a death rate of 8.5% as opposed to 3.7% in women. 
+a data analysis project that uses R programming language and several R libraries to explore COVID-19 line list data. The project involves reading the COVID19_line_list_data.csv file, cleaning the death column, and computing the death rate. Additionally, the project investigates two claims regarding age and gender: 1) people who die are older and 2) gender has no effect. The analysis includes subsetting the data for dead and alive individuals, and for men and women, respectively. The project also performs statistical tests, such as t-tests, and provides statistical insights, including the rejection or acceptance of the null hypothesis.
 
